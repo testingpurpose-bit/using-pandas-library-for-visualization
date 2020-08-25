@@ -10,4 +10,12 @@
 
 
 
+
+
 # 4 Helpful code to manipulate your data
+
+
+##5 Helpful resources
+ -- Pandas visualization
+ -- Matplotlib visualization
+ --- Seaborn visualization.
