@@ -6,5 +6,5 @@
 ### 2. Download Jupyter Notebook
 
 
-### 3.conda install pandas 
+## 3.`code install pandas` 
 
