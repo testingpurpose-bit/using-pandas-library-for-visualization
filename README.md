@@ -16,6 +16,7 @@
 
 
 ##5 Helpful resources
- -- Pandas visualization  - https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html
+ -- Pandas visualization  - https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html   -- to see the different type of visualizations you can make
+ not just line graphs and bar charts.
  -- Matplotlib visualization
  --- Seaborn visualization.
