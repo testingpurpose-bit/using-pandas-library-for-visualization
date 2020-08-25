@@ -8,3 +8,6 @@
 
 ## 3.`code install pandas` 
 
+
+
+# 4 Helpful code to manipulate your data
