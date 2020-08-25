@@ -16,6 +16,6 @@
 
 
 ##5 Helpful resources
- -- Pandas visualization
+ -- Pandas visualization  - https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html
  -- Matplotlib visualization
  --- Seaborn visualization.
