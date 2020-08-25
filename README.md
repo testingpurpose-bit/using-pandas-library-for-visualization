@@ -6,10 +6,5 @@
 ### 2. Download Jupyter Notebook
 
 
-### 3.<html>
-  <head>
-    <title>conda install pandas </title>
-  </head>
-
-
+### 3.conda install pandas 
 
