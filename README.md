@@ -316,7 +316,7 @@ sns.countplot(x="Branch", data = df).set_title("Branch Frequency")
 
 
 
-![png](branchfrequency.png)
+![](branchfrequency.png)
 
 
 ### In this section we will create a new column for frequency of each product
@@ -459,13 +459,7 @@ forbranchfreq.head(5)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-  
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -520,11 +514,6 @@ forbranchfreq120.head(3)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -586,7 +575,7 @@ sns.countplot(x="Payment", data = df).set_title("Payment Channel Frequency")
 
 
 
-![png](output_17_1.png)
+![png](paymentfreq.png)
 
 
 #### In this section we will determine the most active times in which customers shop at the supermarket.
@@ -602,12 +591,6 @@ df.head(5)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -761,12 +744,6 @@ fortime.head(5)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -833,12 +810,6 @@ forcustomertype
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
