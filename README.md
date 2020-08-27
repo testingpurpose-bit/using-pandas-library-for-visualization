@@ -1,5 +1,9 @@
 > **The dataset is one of the historical sales of supermarket company which has recorded in 3 different branches for 3 months data**
 
+> **Before starting, download [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/) & [Jupyter Notebook Editor](https://docs.anaconda.com/anaconda/navigator/) & the Supermarket dataset [here](https://www.kaggle.com/aungpyaeap/supermarket-sales)**
+
+
+
 
 ```python
 import numpy as np 
@@ -904,7 +908,7 @@ pivottable
 
 
 
-</style><table id="T_c1c636a2_e76b_11ea_a714_48d705b452f7" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" colspan=12>Total</th>    </tr>    <tr>        <th class="index_name level1" >STime</th>        <th class="col_heading level1 col0" >10</th>        <th class="col_heading level1 col1" >11</th>        <th class="col_heading level1 col2" >12</th>        <th class="col_heading level1 col3" >13</th>        <th class="col_heading level1 col4" >14</th>        <th class="col_heading level1 col5" >15</th>        <th class="col_heading level1 col6" >16</th>        <th class="col_heading level1 col7" >17</th>        <th class="col_heading level1 col8" >18</th>        <th class="col_heading level1 col9" >19</th>        <th class="col_heading level1 col10" >20</th>        <th class="col_heading level1 col11" >Amount</th>    </tr>    <tr>        <th class="index_name level0" >Customer type</th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>    </tr></thead><tbody>
+<table id="T_c1c636a2_e76b_11ea_a714_48d705b452f7" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" colspan=12>Total</th>    </tr>    <tr>        <th class="index_name level1" >STime</th>        <th class="col_heading level1 col0" >10</th>        <th class="col_heading level1 col1" >11</th>        <th class="col_heading level1 col2" >12</th>        <th class="col_heading level1 col3" >13</th>        <th class="col_heading level1 col4" >14</th>        <th class="col_heading level1 col5" >15</th>        <th class="col_heading level1 col6" >16</th>        <th class="col_heading level1 col7" >17</th>        <th class="col_heading level1 col8" >18</th>        <th class="col_heading level1 col9" >19</th>        <th class="col_heading level1 col10" >20</th>        <th class="col_heading level1 col11" >Amount</th>    </tr>    <tr>        <th class="index_name level0" >Customer type</th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>    </tr></thead><tbody>
                 <tr>
                         <th id="T_c1c636a2_e76b_11ea_a714_48d705b452f7level0_row0" class="row_heading level0 row0" >Member</th>
                         <td id="T_c1c636a2_e76b_11ea_a714_48d705b452f7row0_col0" class="data row0 col0" >12,267</td>
