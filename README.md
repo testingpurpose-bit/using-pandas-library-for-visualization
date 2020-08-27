@@ -168,20 +168,7 @@ new_df.head(5)
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -329,7 +316,7 @@ sns.countplot(x="Branch", data = df).set_title("Branch Frequency")
 
 
 
-![png](output_7_1.png)
+![png](branchfrequency.png)
 
 
 ### In this section we will create a new column for frequency of each product
@@ -343,19 +330,7 @@ df.head(4)
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -489,13 +464,7 @@ forbranchfreq.head(5)
         vertical-align: middle;
     }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
+  
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -555,14 +524,6 @@ forbranchfreq120.head(3)
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -607,7 +568,7 @@ plt.savefig("figure1.png")
 ```
 
 
-![png](output_15_0.png)
+![png](forproductbarchart.png)
 
 
 ### Plot to count frequency of Payment Channel using seaborn plotting library
@@ -633,7 +594,7 @@ sns.countplot(x="Payment", data = df).set_title("Payment Channel Frequency")
 
 
 ```python
-df['STime'] = df['Time'].str[:2]
+df[''] = df['Time'].str[:2]
 df.head(5)
 ```
 
@@ -646,13 +607,6 @@ df.head(5)
         vertical-align: middle;
     }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -812,13 +766,6 @@ fortime.head(5)
         vertical-align: middle;
     }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -870,7 +817,7 @@ plt.savefig("figure2.png")
 ```
 
 
-![png](output_22_0.png)
+![png](ForTimeBarChart.png)
 
 
 #### Pivot table for date, customer type, amount, Total, mean
@@ -891,13 +838,6 @@ forcustomertype
         vertical-align: middle;
     }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -992,7 +932,7 @@ pivottable
 
 
 
-<style  type="text/css" >
+
 </style><table id="T_c1c636a2_e76b_11ea_a714_48d705b452f7" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" colspan=12>Total</th>    </tr>    <tr>        <th class="index_name level1" >STime</th>        <th class="col_heading level1 col0" >10</th>        <th class="col_heading level1 col1" >11</th>        <th class="col_heading level1 col2" >12</th>        <th class="col_heading level1 col3" >13</th>        <th class="col_heading level1 col4" >14</th>        <th class="col_heading level1 col5" >15</th>        <th class="col_heading level1 col6" >16</th>        <th class="col_heading level1 col7" >17</th>        <th class="col_heading level1 col8" >18</th>        <th class="col_heading level1 col9" >19</th>        <th class="col_heading level1 col10" >20</th>        <th class="col_heading level1 col11" >Amount</th>    </tr>    <tr>        <th class="index_name level0" >Customer type</th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>        <th class="blank" ></th>    </tr></thead><tbody>
                 <tr>
                         <th id="T_c1c636a2_e76b_11ea_a714_48d705b452f7level0_row0" class="row_heading level0 row0" >Member</th>
