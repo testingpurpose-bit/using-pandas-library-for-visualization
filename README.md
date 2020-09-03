@@ -587,7 +587,7 @@ sns.countplot(x="Payment", data = df).set_title("Payment Channel Frequency")
 
 
 ```python
-df[''] = df['Time'].str[:2]
+df['STime'] = df['Time'].str[:2]
 df.head(5)
 ```
 
