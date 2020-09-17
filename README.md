@@ -3,6 +3,8 @@
 > **Before starting, download [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/) & [Jupyter Notebook Editor](https://docs.anaconda.com/anaconda/navigator/) & the Supermarket dataset [here](https://www.kaggle.com/aungpyaeap/supermarket-sales)**
 
 
+> **See the deployment here: https://floating-shore-26520.herokuapp.com/
+
 
 
 ```python
